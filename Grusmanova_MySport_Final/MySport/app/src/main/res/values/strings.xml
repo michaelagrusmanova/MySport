@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Sportovní deník</string>
+    <string name="introduction">Úvod</string>
+    <string name="my_data">Moje data</string>
+    <string name="about_app">O aplikaci</string>
+    <string name="add_data">Zaznamenat aktivitu</string>
+    <string name="welcome">Vítejte ve vašem osobním sportovním deníku.</string>
+    <string name="nav_open">Otevřít</string>
+    <string name="nav_close">Zavřít</string>
+    <string name="author">Bc. Michaela Grusmanová.</string>
+    <string name="author_title">Autorkou této aplikace je </string>
+    <string name="about_app_text">Tento projekt vznikl ve spolupráci s Technickou univerzitou v Liberci.</string>
+    <string name="set_activity_title">Zadejte aktivitu:</string>
+    <string name="set_distance_title">Zadejte výkon:</string>
+    <string name="set_duration_title">Zadejte čas:</string>
+    <string name="set_notes_title">Poznámky:</string>
+    <string name="save">Uložit</string>
+    <string name="email">michaela.grusmanova@gmail.com</string>
+    <string name="email_title">E-mail:</string>
+    <string name="phone">777873222</string>
+    <string name="phone_title">Telefon:</string>
+    <string name="url">www.tul.cz</string>
+    <string name="url_title">Web:</string>
+    <string name="contact">Kontakt:</string>
+    <string name="title_activity_bmicalculator">BMI kalkulačka</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="set_height">Zadejte svou výšku (v cm):</string>
+    <string name="set_weight">Zadejte svou hmotnost (v kg):</string>
+    <string name="calculate_title">Vypočítej</string>
+    <string name="update_activity">Upravit aktivitu</string>
+    <string name="delete">Smazat</string>
+    <string name="update">Upravit</string>
+    <string name="choose_file">Vybrat obrázek</string>
+
+    <string-array name="Activities">
+        <item>Aerobic</item>
+        <item>Aikido</item>
+        <item>Airsoft</item>
+        <item>Akrobatický rock and roll</item>
+        <item>Akrobatičtí holubi</item>
+        <item>Americký fotbal</item>
+        <item>Aqua aerobic</item>
+        <item>Atletika</item>
+        <item>Badminton</item>
+        <item>Baseball</item>
+        <item>Basketbal</item>
+        <item>Běh</item>
+        <item>Běh na lyžích</item>
+        <item>Biatlon</item>
+        <item>Bmx</item>
+        <item>Bowling</item>
+        <item>Box</item>
+        <item>Bridž</item>
+        <item>Capoeira</item>
+        <item>Curling</item>
+        <item>Cyklistika</item>
+        <item>Fitness</item>
+        <item>Florbal</item>
+        <item>Florhockey</item>
+        <item>Flyball</item>
+        <item>Footbag</item>
+        <item>Fotbal</item>
+        <item>Frisbee</item>
+        <item>Futsal</item>
+        <item>Go</item>
+        <item>Golf</item>
+        <item>Gymnastika</item>
+        <item>Haedong kumdo</item>
+        <item>Hapkido</item>
+        <item>Hasičský sport</item>
+        <item>Házená</item>
+        <item>Hokejbal</item>
+        <item>Horolezectví</item>
+        <item>Cheerleading</item>
+        <item>In-line skating</item>
+        <item>Inline hokej</item>
+        <item>Jachting</item>
+        <item>Jezdectví</item>
+        <item>Ji-jitsu</item>
+        <item>Joga a cvičení pro zdraví</item>
+        <item>Judo</item>
+        <item>Kanoistika</item>
+        <item>Kin-ball</item>
+        <item>Korfbal</item>
+        <item>Krasobruslení</item>
+        <item>Krav-maga</item>
+        <item>Kubb</item>
+        <item>Kulečník</item>
+        <item>Kuličky</item>
+        <item>Kulturní víceboj</item>
+        <item>Kung-fu</item>
+        <item>Kuželky</item>
+        <item>Kynologie</item>
+        <item>Lacrosse</item>
+        <item>Lední hokej</item>
+        <item>Lukostřelba</item>
+        <item>Lyžování</item>
+        <item>Snowboarding</item>
+        <item>Malá kopaná</item>
+        <item>Masírování</item>
+        <item>Moderní pětiboj</item>
+        <item>Mölkky</item>
+        <item>Motocyklismus</item>
+        <item>Motorismus</item>
+        <item>Muay thai</item>
+        <item>Házená</item>
+        <item>Nohejbal</item>
+        <item>Nordic walking</item>
+        <item>Nordické bruslení</item>
+        <item>Orel</item>
+        <item>Orientační běh</item>
+        <item>Ostatní sporty</item>
+        <item>Paintball</item>
+        <item>Parkour</item>
+        <item>Pétanque</item>
+        <item>Plavání</item>
+        <item>Plážový fotbal</item>
+        <item>Plážový volejbal</item>
+        <item>Potápění</item>
+        <item>Pozemní hokej</item>
+        <item>Rafting</item>
+        <item>Ragby</item>
+        <item>Ricochet</item>
+        <item>Ringo</item>
+        <item>Rybářské závody</item>
+        <item>Skateboarding</item>
+        <item>Skauting</item>
+        <item>Skoky na trampolíně</item>
+        <item>Softball</item>
+        <item>Sokol</item>
+        <item>Speedminton</item>
+        <item>Speleologie</item>
+        <item>Spinning</item>
+        <item>Společenský víceboj</item>
+        <item>Sportovní potápění</item>
+        <item>Sportovní střelba</item>
+        <item>Squash</item>
+        <item>Stolní a deskové hry</item>
+        <item>Stolní fotbal</item>
+        <item>Stolní hokej</item>
+        <item>Stolní tenis</item>
+        <item>Streetball</item>
+        <item>Šachy</item>
+        <item>Šerm</item>
+        <item>Šipky</item>
+        <item>Švihadlo</item>
+        <item>Taekwondo</item>
+        <item>Tanec</item>
+        <item>Taroky</item>
+        <item>Tenis</item>
+        <item>Tchoukball</item>
+        <item>Turistika</item>
+        <item>Veslování</item>
+        <item>Vodní pólo</item>
+        <item>Vodní slalom</item>
+        <item>Výlet</item>
+        <item>Volejbal</item>
+        <item>Zápas</item>
+    </string-array>
+
+</resources>

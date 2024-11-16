@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_introduction"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/introduction" />
+    <item
+        android:id="@+id/nav_my_data"
+        android:icon="@drawable/mydata_icon"
+        android:title="@string/my_data" />
+
+    <item
+        android:id="@+id/nav_add_activity"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/add_data" />
+
+    <item
+        android:id="@+id/nav_bmi_activity"
+        android:icon="@drawable/bmi_icon"
+        android:title="@string/title_activity_bmicalculator" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about_app" />
+
+</menu>

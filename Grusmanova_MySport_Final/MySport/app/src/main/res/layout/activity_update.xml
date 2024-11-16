@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".UpdateActivity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginTop="@dimen/top_small_margin"
+                android:text="@string/set_activity_title"
+                android:theme="@style/normal_text_left_theme" />
+
+            <AutoCompleteTextView
+                android:id="@+id/set_activity2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginRight="@dimen/small_side_margin"
+                android:hint="Běhání"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginTop="@dimen/spaces_in_form"
+                android:text="@string/set_distance_title"
+                android:theme="@style/normal_text_left_theme" />
+
+            <EditText
+                android:id="@+id/set_distance2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginRight="@dimen/small_side_margin"
+                android:hint="10 km"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginTop="@dimen/spaces_in_form"
+                android:text="@string/set_duration_title"
+                android:theme="@style/normal_text_left_theme" />
+
+            <EditText
+                android:id="@+id/set_duration2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginRight="@dimen/small_side_margin"
+                android:hint="1 hodina 20 minut"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginTop="@dimen/spaces_in_form"
+                android:text="@string/set_notes_title"
+                android:theme="@style/normal_text_left_theme" />
+
+            <EditText
+                android:id="@+id/set_notes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginRight="@dimen/small_side_margin"
+                android:hint="15.11.2021 Běhalo se krásně."
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btn_select_file2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginTop="@dimen/spaces_in_form"
+                android:layout_marginRight="@dimen/small_side_margin"
+                android:padding="@dimen/button_size"
+                android:text="@string/choose_file"
+                android:textAllCaps="false"
+                android:textSize="@dimen/small_text_size" />
+
+            <Button
+                android:id="@+id/write_activity_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_side_margin"
+                android:layout_marginTop="@dimen/spaces_in_form"
+                android:layout_marginRight="@dimen/small_side_margin"
+                android:padding="@dimen/button_size"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textSize="@dimen/small_text_size" />
+
+            <ImageView
+                android:id="@+id/imageViewPhoto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/top_small_margin"
+                android:background="#ffffff"
+                android:src="@drawable/note"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

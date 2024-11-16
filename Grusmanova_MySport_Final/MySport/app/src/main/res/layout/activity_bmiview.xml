@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/tvBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_margin"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_margin"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgBody"
+        android:layout_width="wrap_content"
+        android:layout_height="287dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_small_margin" />
+</LinearLayout>
